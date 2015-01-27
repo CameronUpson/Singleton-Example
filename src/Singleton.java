@@ -5,7 +5,7 @@ public class Singleton implements Runnable {
 
 	public static volatile Singleton instance = null;
 	
-	public Singleton() {
+	private Singleton() {
 		System.out.println("First");
 	}
 	
